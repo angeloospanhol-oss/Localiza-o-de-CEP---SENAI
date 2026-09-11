@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #eeeeee;
 }
-
+/*contraliza os itens do body no centro*/
 body {
     align-items: center;
     justify-content: center;
@@ -12,35 +12,41 @@ body {
     text-align: center;
 }
 
+/*Muda a cor de fundo do header*/
 header{ 
     background-color: #0D80BF;
     padding: 2px;
 }
 
+/*Mudando a cor de fundo do main, centralizando e deixando dimencionado*/
 main {
     background-color: #ffffff;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: 100px 700px 0 ;
     
 }
 
+/*Muda a cor do fundo do footer*/
 footer{
     background-color: #0D80BF;
     text-align: center;
-    margin-top: 53vh;
+    margin-top: 40vh;
 }
 
+/*Colocando margin no input*/
 input{
     margin: 5px;
 }
 
+/*Alinhando o titulo no centro*/
 h1 {
     text-align: center;
 }
 
+/*Mudando a cor do botão e deixando ele maior*/
 button {
     border-radius: 50px;
     background-color: #0D80BF;
@@ -48,16 +54,24 @@ button {
     margin: 25px;
     font-size: 15px;
     border: none;
+    color: inherit;
 }
 
+/*Botão mudando de cor quando passa i mouse por cima*/
 button:hover{
     background-color: #3bb7fa;
 }
 
+/*Mudando o tamanho da caixa de escrita*/
 input{
     width: auto;
     height: 50px;
     border-radius: 15px;
     border-style: solid;
     border-color:#545555 ;
+}
+
+/*tirando o sublinhado dos links*/
+a {
+    text-decoration: none;
 }
